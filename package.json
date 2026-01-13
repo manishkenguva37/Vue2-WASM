@@ -1,0 +1,15 @@
+{
+  "name": "vue2-wasm-worker",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^2.7.14"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-vue2": "^2.0.0"
+  }
+}
