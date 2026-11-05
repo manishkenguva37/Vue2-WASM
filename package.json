@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "build:wasm": "cd wasm/processor && wasm-pack build --target web --release --out-dir pkg",
+    "benchmark": "node scripts/benchmark-engine.mjs",
+    "generate:csv": "node scripts/generate-csv.js",
+    "test": "node --test"
   },
   "dependencies": {
     "vue": "^2.7.14"
